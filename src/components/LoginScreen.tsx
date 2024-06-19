@@ -19,8 +19,7 @@ const LoginScreen = () => {
     if (email === 'Email' && name === 'Name' && password === 'Pass') {
       navigation.navigate('Dashboard');
     } else {
-      navigation.navigate('Dashboard');
-      // alert('Invalid credentials');
+      alert('Invalid credentials');
     }
   };
 
